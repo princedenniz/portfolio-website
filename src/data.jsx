@@ -1,5 +1,6 @@
 import { FaPaintBrush } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
+import { FaWhatsapp } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
 import { GiIdea } from "react-icons/gi";
@@ -30,7 +31,12 @@ import {
   emailicon,
   messengericon,
   whatsappicon,
+  typescript,
+  nextjs,
+  nodejs,
+  expressjs
 } from "./assets";
+import { FaServer, FaLaptopCode, FaPenNib } from "react-icons/fa";
 
 export const menu = [
   { name: "About" },
@@ -43,29 +49,30 @@ export const menu = [
 
 export const services = [
   {
-    title: "UI/UX Design",
-    icon: <FaPaintBrush />,
-    description: `Crafting visually stunning and user-centric designs that ensure seamless user experiences. 
-                  From wireframes to high-fidelity prototypes, I focus on creating intuitive interfaces that 
-                  blend creativity and functionality, enhancing engagement and usability.`,
+    title: "Full-Stack Development",
+    icon: <FaLaptopCode />,
+    description: `Building scalable, high-performance web applications with modern technologies. 
+                  I specialize in frontend development with React.js and Next.js, combined with a robust backend 
+                  powered by Node.js and Express. My focus is on creating seamless, efficient, and user-friendly 
+                  applications that drive engagement and functionality.`,
   },
   {
-    title: "Web Development",
-    icon: <FaCodeCompare />,
+    title: "Backend Development & API Integration",
+    icon: <FaServer />,
     color: "blueviolet",
     colorRGB: "138, 43, 226",
-    description: `Building responsive, dynamic, and high-performance websites tailored to your needs. 
-    Using modern technologies like React, Node.js, and more, I ensure your site is optimized 
-    for speed, scalability, and accessibility, delivering a robust online presence.`,
+    description: `Developing powerful and optimized server-side applications with Node.js and Express. 
+                  I build RESTful and GraphQL APIs, handle authentication, database management, and ensure 
+                  seamless integration with frontend systems. Performance, security, and scalability are my top priorities.`,
   },
   {
-    title: "Content Creation",
-    icon: <GiIdea />,
+    title: "Technical Writing & Documentation",
+    icon: <FaPenNib />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",
-    description: `Producing compelling digital content that resonates with your audience. From blogs 
-                  and technical documentation to engaging website copy, I ensure your brand's message 
-                  is clear, impactful, and aligned with your business goals.`,
+    description: `Creating clear, concise, and well-structured technical documentation. Whether it's API 
+                  documentation, project guides, or developer tutorials, I ensure that complex concepts 
+                  are communicated effectively for seamless implementation and understanding.`,
   },
 ];
 
@@ -132,8 +139,8 @@ export const projects = [
         logo: react,
       },
       {
-        name: "Figma",
-        logo: figma,
+        name: "Express",
+        logo: expressjs,
       },
       {
         name: "Tailwind",
@@ -210,22 +217,27 @@ export const projects = [
 
 export const skills = [
   {
-    title: "UI/UX",
+    title: "BackEnd Development",
     data: [
       {
-        skill: "Figma",
+        skill: "Express",
         level: "Experienced",
-        logo: figma,
+        logo: expressjs,
       },
       {
-        skill: "Sketch",
-        level: "Intermediate",
-        logo: sketch,
+        skill: "Typescript",
+        level: "Experience",
+        logo: typescript,
       },
       {
-        skill: "XD",
-        level: "Intermediate",
-        logo: xd,
+        skill: "Next",
+        level: "Experience",
+        logo: nextjs,
+      },
+      {
+        skill: "Node",
+        level: "Experience",
+        logo: nodejs,
       },
     ],
   },
@@ -273,15 +285,15 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "dennisprince815@gmail.com",
+    link: "mailto:dennisprince815@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
   {
     name: "Messenger",
-    value: "Emmanuel Eze",
+    value: "Prince Dennis",
     link: "http://m.me/profile?id=profile-i",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
@@ -289,34 +301,34 @@ export const contactInfo = [
   },
   {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+2348037147231",
+    link: "https://api.whatsapp.com/send?phone=+2348037147231",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
   },
 ];
 export const socialHandles = [
-  {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
-  },
+  // {
+  //   name: "Fiverr",
+  //   icon: <SiFiverr />,
+  //   link: "",
+  // },
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/princedenniz",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://www.linkedin.com/in/prince-dennis-2765a2145/",
   },
-  {
-    name: "Youtube",
-    icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-  },
+  // {
+  //   name: "Youtube",
+  //   icon: <AiFillYoutube />,
+  //   link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+  // },
 ];
 
 export const testimonials = [

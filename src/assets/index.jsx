@@ -27,3 +27,8 @@ export { default as reactnative } from "./icons/reactnative.svg";
 export { default as emailicon } from "./icons/email.png";
 export { default as messengericon } from "./icons/messenger.png";
 export { default as whatsappicon } from "./icons/whatsapp.png";
+export { default as nodejs } from "./icons/node-logo.png";
+export { default as expressjs } from "./icons/express-logo.png";
+export { default as nextjs } from "./icons/next-logo.png";
+export { default as typescript } from "./icons/typescript-logo.png";
+
