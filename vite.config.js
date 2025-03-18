@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1000, // Increases the warning limit (optional)
+    minify: false, // Disable CSS minification
     rollupOptions: {
       output: {
         manualChunks(id) {
