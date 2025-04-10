@@ -78,24 +78,32 @@ export const services = [
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "Green Cart Store",
     image: project1,
-    category: "UI/UX",
+    category: "Web",
     description: `Transforming education with AI, our School UI Design project revolutionizes the 
                      learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
                      and intuitive navigation, our design empowers educators and students alike. Experience 
                      innovation at its finest as we pave the way for a smarter, more efficient educational 
                      journey.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://greencart-gs.vercel.app/",
     stacks: [
       {
-        name: "XD",
-        logo: xd,
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "Express",
+        logo: expressjs,
+      },
+      {
+        name: "CSS",
+        logo: css,
       },
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Social Media Clone",
     image: project2,
     category: "Web",
     description: `Enhance your online shopping experience with our E-Commerce Application 
@@ -103,28 +111,24 @@ export const projects = [
       interface offers easy navigation, personalized recommendations, and secure 
       transactions. Elevate your digital storefront and captivate customers with a visually 
       stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    demoLink: "https://social-app-neon.vercel.app/",
     stacks: [
       {
         name: "ReactJs",
         logo: react,
       },
       {
-        name: "XD",
-        logo: xd,
-      },
-      {
         name: "CSS",
         logo: css,
       },
       {
-        name: "JavaScript",
-        logo: javascript,
+        name: "Typescript",
+        logo: typescript,
       },
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
+    title: "Doctor Appointment Booking Website",
     image: project3,
     category: "Web",
     description: `Unlock the future of robotics with our Robotic Engineering Web Application
@@ -132,7 +136,7 @@ export const projects = [
       and collaborative tools, our platform empowers engineers to design, simulate, 
       and optimize robotic systems. Experience innovation at its peak as we redefine the 
       boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://prescripto.vercel.app/",
     stacks: [
       {
         name: "ReactJs",
@@ -149,37 +153,49 @@ export const projects = [
     ],
   },
   {
-    title: "Project Management application",
+    title: "GYM site",
     image: project4,
-    category: "Apps",
+    category: "Web",
     description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
                      Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://my-gym-site.vercel.app/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "React",
+        logo: react,
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Node",
+        logo: nodejs,
       },
       {
         name: "CSS",
         logo: css,
       },
+      {
+        name: "Tailwind",
+        logo: tailwind,
+      },
     ],
   },
   {
-    title: "Mobile bank - App Design",
+    title: "A Waitlist Site",
     image: project5,
-    category: "UI/UX",
+    category: "Web",
     description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "Figma",
-        logo: figma,
+        name: "Tailwind",
+        logo: tailwind,
+      },
+      {
+        name: "Express",
+        logo: expressjs,
+      },
+      {
+        name: "Vue",
+        logo: react,
       },
     ],
   },
@@ -196,16 +212,12 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "React",
+        logo: react,
       },
       {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "XD",
-        logo: xd,
+        name: "CSS",
+        logo: css,
       },
       {
         name: "Bootstrap",
