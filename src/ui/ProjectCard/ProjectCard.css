@@ -64,6 +64,12 @@
     gap: 10px;
     margin-top: 10px;
 }
+.project__card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
 .project__card .stack{
     padding: 5px;
     width: 30px;
