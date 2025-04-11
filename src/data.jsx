@@ -43,7 +43,7 @@ export const menu = [
   { name: "Services" },
   { name: "Skill" },
   { name: "Projects" },
-  { name: "Testimonial" },
+  // { name: "Testimonial" },
   { name: "Contact" },
 ];
 
@@ -286,11 +286,6 @@ export const skills = [
         level: "Experienced",
         logo: react,
       },
-      {
-        skill: "React Native",
-        level: "Experienced",
-        logo: reactnative,
-      },
     ],
   },
 ];
@@ -302,14 +297,6 @@ export const contactInfo = [
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
-  },
-  {
-    name: "Messenger",
-    value: "Prince Dennis",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
-    btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
   },
   {
     name: "WhatsApp",
